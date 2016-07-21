@@ -2,14 +2,21 @@
   var videoPlayers = document.querySelectorAll(".video__inner"),
       numberOfPlayers = videoPlayers.length,
       i = 0,
-      left, top;
+      thisVideoPlayer;
 
   for (; i < numberOfPlayers; i++) {
-    videoPlayers[i].style.left = videoPlayers[i].offsetLeft + "px";
-    videoPlayers[i].style.top = videoPlayers[i].offsetTop + "px";
-    videoPlayers[i].style.width = videoPlayers[i].offsetWidth+ "px";
+    thisVideoPlayer = videoPlayers[i];
 
-    videoPlayers[i].addEventListener("click", function(event) {
+    // When enough info about the size has come in, set the container coordinates and width
+    thisVideoPlayer.querySelector(".video__player").addEventListener("loadeddata", function(event){
+      var videoParent = this.parentNode;
+      videoParent.style.left = videoParent.offsetLeft + "px";
+      videoParent.style.top = videoParent.offsetTop + "px";
+      videoParent.style.width = videoParent.offsetWidth+ "px";
+    });
+
+    // When a video is clicked toggle fullscreen
+    thisVideoPlayer.addEventListener("click", function(event) {
       this.classList.toggle("playing");
       this.classList.add("fixed");
       if (!this.classList.contains("playing")) {
@@ -17,14 +24,16 @@
       }
     });
 
-    videoPlayers[i].addEventListener("transitionend", function(event) {
+    // Toggle the overlay
+    thisVideoPlayer.addEventListener("transitionend", function(event) {
+      var overlay = this.querySelector(".video__overlay");
       if (this.classList.contains("playing")) {
-        this.querySelector(".video__overlay").classList.add("show");
-        this.querySelector(".video__player").play();
+        overlay.classList.add("show");
+        overlay.play();
       } else {
         this.classList.remove("fixed");
-        this.querySelector(".video__overlay").classList.remove("show");
-        this.querySelector(".video__overlay").classList.remove("hide");
+        overlay.classList.remove("show");
+        overlay.classList.remove("hide");
       }
     });
   }
