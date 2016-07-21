@@ -29,7 +29,7 @@
       "streetAddress": "1701 Highway 98"
     },
     "description": "A superb collection of art.",
-    "name": "1 Art Gallery",
+    "name": "2 Art Gallery",
     "telephone": "541-555-4200",
     "video": {
       "@type": "VideoObject",
@@ -49,7 +49,7 @@
       "streetAddress": "1701 Highway 98"
     },
     "description": "A superb collection of art.",
-    "name": "1 Art Gallery",
+    "name": "3 Art Gallery",
     "telephone": "541-555-4200",
     "video": {
       "@type": "VideoObject",
@@ -69,7 +69,7 @@
       "streetAddress": "1701 Highway 98"
     },
     "description": "A superb collection of art.",
-    "name": "1 Art Gallery",
+    "name": "4 Art Gallery",
     "telephone": "541-555-4200",
     "video": {
       "@type": "VideoObject",
@@ -89,7 +89,7 @@
       "streetAddress": "1701 Highway 98"
     },
     "description": "A superb collection of art.",
-    "name": "1 Art Gallery",
+    "name": "5 Art Gallery",
     "telephone": "541-555-4200",
     "video": {
       "@type": "VideoObject",
@@ -109,7 +109,7 @@
       "streetAddress": "1701 Highway 98"
     },
     "description": "A superb collection of art.",
-    "name": "1 Art Gallery",
+    "name": "6 Art Gallery",
     "telephone": "541-555-4200",
     "video": {
       "@type": "VideoObject",
