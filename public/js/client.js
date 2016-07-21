@@ -12,6 +12,9 @@
     videoPlayers[i].addEventListener("click", function(event) {
       this.classList.toggle("playing");
       this.classList.add("fixed");
+      if (!this.classList.contains("playing")) {
+        this.querySelector(".video__overlay").classList.add("hide");
+      }
     });
 
     videoPlayers[i].addEventListener("transitionend", function(event) {
@@ -21,6 +24,7 @@
       } else {
         this.classList.remove("fixed");
         this.querySelector(".video__overlay").classList.remove("show");
+        this.querySelector(".video__overlay").classList.remove("hide");
       }
     });
   }
