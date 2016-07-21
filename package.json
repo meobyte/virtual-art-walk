@@ -16,6 +16,9 @@
   "bugs": {
     "url": "https://github.com/meobyte/virtual-art-walk/issues"
   },
+  "engines": {
+    "node": "5.9.0"
+  },
   "homepage": "https://github.com/meobyte/virtual-art-walk#readme",
   "dependencies": {
     "express": "^4.14.0",
