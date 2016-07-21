@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "mocha",
-    "stylus": "stylus -w ./assets/css/app.styl -o ./public/css/app.css"
+    "stylus": "stylus -w ./assets/css/app.styl -o ./public/css/app.css",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
