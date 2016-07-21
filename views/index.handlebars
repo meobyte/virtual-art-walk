@@ -1,48 +1,15 @@
 <div class="container">
   <div class="videos">
-    <div class="video">
-      <div class="video__inner">
-        <video class="video__player" poster="images/northwest-art-gallery.jpg">
-        </video>
-      </div>
-    </div>
-    <div class="video">
-      <div class="video__inner">
-        <video class="video__player" poster="images/northwest-art-gallery.jpg">
-        </video>
-      </div>
-    </div>
-    <div class="video">
-      <div class="video__inner">
-        <video class="video__player" poster="images/northwest-art-gallery.jpg">
-        </video>
-      </div>
-    </div>
-    <div class="video">
-      <div class="video__inner">
-        <video class="video__player" poster="images/northwest-art-gallery.jpg">
-        </video>
-      </div>
-    </div>
+  {{#each galleries}}
     <div class="video">
       <div class="video__inner">
         <div class="video__overlay"></div>
-        <video class="video__player" poster="images/northwest-art-gallery.jpg">
+        <video loop autoplay class="video__player" poster="{{this.video.thumbnail}}">
+          <source src="videos/gallery.mp4" type="video/mp4">
         </video>
       </div>
     </div>
-    <div class="video">
-      <div class="video__inner">
-        <video class="video__player" poster="images/northwest-art-gallery.jpg">
-        </video>
-      </div>
-    </div>
-    <div class="video">
-      <div class="video__inner">
-        <video class="video__player" poster="images/northwest-art-gallery.jpg">
-        </video>
-      </div>
-    </div>
+  {{/each}}
     <script src="js/client.js"></script>
   </div>
 </div>

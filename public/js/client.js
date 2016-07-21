@@ -17,6 +17,7 @@
     videoPlayers[i].addEventListener("transitionend", function(event) {
       if (this.classList.contains("playing")) {
         this.querySelector(".video__overlay").classList.add("show");
+        this.querySelector(".video__player").play();
       } else {
         this.classList.remove("fixed");
         this.querySelector(".video__overlay").classList.remove("show");

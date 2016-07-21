@@ -1,5 +1,6 @@
 const express = require('express');
 const handlebars = require('express-handlebars');
+const galleries = require('./models/galleries.json')
 const app = express();
 
 // set up handlebars view engine
@@ -11,7 +12,7 @@ app.use(express.static(`${__dirname}/public`));
 
 // index page
 app.get('/', (req, res) => {
-  res.render('index');
+  res.render('index', {galleries: galleries});
 });
 
 // custom 404 page

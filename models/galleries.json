@@ -1,0 +1,122 @@
+[
+  {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Medford",
+      "addressRegion": "Oregon",
+      "streetAddress": "1701 Highway 98"
+    },
+    "description": "A superb collection of art.",
+    "name": "1 Art Gallery",
+    "telephone": "541-555-4200",
+    "video": {
+      "@type": "VideoObject",
+      "duration": "T1M33S",
+      "name": "Live Stream of Art Gallery",
+      "thumbnail": "images/northwest-art-gallery.jpg",
+      "url": "videos/gallery.mp4"
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Medford",
+      "addressRegion": "Oregon",
+      "streetAddress": "1701 Highway 98"
+    },
+    "description": "A superb collection of art.",
+    "name": "1 Art Gallery",
+    "telephone": "541-555-4200",
+    "video": {
+      "@type": "VideoObject",
+      "duration": "T1M33S",
+      "name": "Live Stream of Art Gallery",
+      "thumbnail": "images/northwest-art-gallery.jpg",
+      "url": "videos/gallery.mp4"
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Medford",
+      "addressRegion": "Oregon",
+      "streetAddress": "1701 Highway 98"
+    },
+    "description": "A superb collection of art.",
+    "name": "1 Art Gallery",
+    "telephone": "541-555-4200",
+    "video": {
+      "@type": "VideoObject",
+      "duration": "T1M33S",
+      "name": "Live Stream of Art Gallery",
+      "thumbnail": "images/northwest-art-gallery.jpg",
+      "url": "videos/gallery.mp4"
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Medford",
+      "addressRegion": "Oregon",
+      "streetAddress": "1701 Highway 98"
+    },
+    "description": "A superb collection of art.",
+    "name": "1 Art Gallery",
+    "telephone": "541-555-4200",
+    "video": {
+      "@type": "VideoObject",
+      "duration": "T1M33S",
+      "name": "Live Stream of Art Gallery",
+      "thumbnail": "images/northwest-art-gallery.jpg",
+      "url": "videos/gallery.mp4"
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Medford",
+      "addressRegion": "Oregon",
+      "streetAddress": "1701 Highway 98"
+    },
+    "description": "A superb collection of art.",
+    "name": "1 Art Gallery",
+    "telephone": "541-555-4200",
+    "video": {
+      "@type": "VideoObject",
+      "duration": "T1M33S",
+      "name": "Live Stream of Art Gallery",
+      "thumbnail": "images/northwest-art-gallery.jpg",
+      "url": "videos/gallery.mp4"
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Medford",
+      "addressRegion": "Oregon",
+      "streetAddress": "1701 Highway 98"
+    },
+    "description": "A superb collection of art.",
+    "name": "1 Art Gallery",
+    "telephone": "541-555-4200",
+    "video": {
+      "@type": "VideoObject",
+      "duration": "T1M33S",
+      "name": "Live Stream of Art Gallery",
+      "thumbnail": "images/northwest-art-gallery.jpg",
+      "url": "videos/gallery.mp4"
+    }
+  }
+]
