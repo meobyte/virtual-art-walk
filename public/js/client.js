@@ -21,8 +21,8 @@
       this.classList.toggle("playing");
       this.classList.add("fixed");
       if (this.classList.contains("playing")) {
-        this.querySelector("h1").classList.toggle("show");
-        this.querySelector("h1").classList.toggle("hide");
+        this.querySelector("h1").classList.remove("show");
+        this.querySelector("h1").classList.add("hide");
       } else {
         this.querySelector(".video__overlay").classList.add("hide");
       }
@@ -39,8 +39,8 @@
         this.classList.remove("fixed");
         overlay.classList.remove("show");
         overlay.classList.remove("hide");
-        this.querySelector("h1").classList.toggle("show");
-        this.querySelector("h1").classList.toggle("hide");
+        this.querySelector("h1").classList.add("show");
+        this.querySelector("h1").classList.remove("hide");
       }
     });
   }
