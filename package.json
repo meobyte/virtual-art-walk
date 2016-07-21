@@ -4,7 +4,8 @@
   "description": "Displays lives streams of local art galleries",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "stylus": "stylus -w ./assets/css/app.styl -o ./public/css/app.css"
   },
   "repository": {
     "type": "git",
