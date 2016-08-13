@@ -2,121 +2,312 @@
   {
     "@context": "http://schema.org",
     "@type": "LocalBusiness",
+    "name": "Rogue Gallery & Art Center",
+    "description": "A superb collection of art.",
+    "telephone": "541-772-8118",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Medford",
       "addressRegion": "Oregon",
-      "streetAddress": "1701 Highway 98"
+      "streetAddress": "40 S. Bartlett St."
     },
-    "description": "A superb collection of art.",
-    "name": "1 Art Gallery",
-    "telephone": "541-555-4200",
+    "openingHours": [
+      "Tu-Fr 10:00-17:00",
+      "Sa 11:00-15:00"
+    ],
+    "events": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Blending Poetry & Cloth"
+      },
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Abstract Expressionism: Celebrating 70 Years of Throwing Paint"
+      }
+    ],
     "video": {
       "@type": "VideoObject",
       "duration": "T1M33S",
       "name": "Live Stream of Art Gallery",
       "thumbnail": "images/northwest-art-gallery.jpg",
-      "url": "videos/gallery.mp4"
+      "url": "videos/gallery-1.mp4"
     }
   },
   {
     "@context": "http://schema.org",
     "@type": "LocalBusiness",
+    "name": "Art du Jour Gallery",
+    "description": "A superb collection of art.",
+    "telephone": "541-770-3190",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Medford",
       "addressRegion": "Oregon",
-      "streetAddress": "1701 Highway 98"
+      "streetAddress": "213 E. Main St."
     },
-    "description": "A superb collection of art.",
-    "name": "2 Art Gallery",
-    "telephone": "541-555-4200",
+    "openingHours": [
+      "Tu-Sa 10:00-16:00"
+    ],
+    "events": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Watercolor"
+      },
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Acrylic"
+      }
+    ],
     "video": {
       "@type": "VideoObject",
       "duration": "T1M33S",
       "name": "Live Stream of Art Gallery",
       "thumbnail": "images/northwest-art-gallery.jpg",
-      "url": "videos/gallery.mp4"
+      "url": "videos/gallery-2.mp4"
     }
   },
   {
     "@context": "http://schema.org",
     "@type": "LocalBusiness",
+    "name": "30 North Fine Art Gallery",
+    "description": "A superb collection of art.",
+    "telephone": "541-500-1230",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Medford",
       "addressRegion": "Oregon",
-      "streetAddress": "1701 Highway 98"
+      "streetAddress": "30 N. Central Ave"
     },
-    "description": "A superb collection of art.",
-    "name": "3 Art Gallery",
-    "telephone": "541-555-4200",
+    "openingHours": [
+      "We-Sa 10:00-17:00"
+    ],
+    "events": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Spring Poppies"
+      },
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Flow"
+      }
+    ],
     "video": {
       "@type": "VideoObject",
       "duration": "T1M33S",
       "name": "Live Stream of Art Gallery",
       "thumbnail": "images/northwest-art-gallery.jpg",
-      "url": "videos/gallery.mp4"
+      "url": "videos/gallery-3.mp4"
     }
   },
   {
     "@context": "http://schema.org",
     "@type": "LocalBusiness",
+    "name": "Rebecca Gabriel Studio",
+    "description": "A superb collection of art.",
+    "telephone": "541-488-3831",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Medford",
+      "addressLocality": "Ashland",
       "addressRegion": "Oregon",
-      "streetAddress": "1701 Highway 98"
+      "streetAddress": "404 Wilson Rd."
     },
-    "description": "A superb collection of art.",
-    "name": "4 Art Gallery",
-    "telephone": "541-555-4200",
+    "openingHours": [
+      "by Appointment"
+    ],
+    "events": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Still Life"
+      },
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Nudes"
+      }
+    ],
     "video": {
       "@type": "VideoObject",
       "duration": "T1M33S",
       "name": "Live Stream of Art Gallery",
       "thumbnail": "images/northwest-art-gallery.jpg",
-      "url": "videos/gallery.mp4"
+      "url": "videos/gallery-4.mp4"
     }
   },
   {
     "@context": "http://schema.org",
     "@type": "LocalBusiness",
+    "name": "Ashland Art Works",
+    "description": "A superb collection of art.",
+    "telephone": "541-488-4735",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Medford",
+      "addressLocality": "Ashland",
       "addressRegion": "Oregon",
-      "streetAddress": "1701 Highway 98"
+      "streetAddress": "291 Oak St."
     },
-    "description": "A superb collection of art.",
-    "name": "5 Art Gallery",
-    "telephone": "541-555-4200",
+    "openingHours": [
+      "Su-We 11:00-15:00",
+      "Th-Sa 10:00-16:00"
+    ],
+    "events": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Faces of Nepal and Functional Pottery"
+      },
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Raku Sculpture and Fine Woodworking"
+      }
+    ],
     "video": {
       "@type": "VideoObject",
       "duration": "T1M33S",
       "name": "Live Stream of Art Gallery",
       "thumbnail": "images/northwest-art-gallery.jpg",
-      "url": "videos/gallery.mp4"
+      "url": "videos/gallery-1.mp4"
     }
   },
   {
     "@context": "http://schema.org",
     "@type": "LocalBusiness",
+    "name": "Schneider Museum of Art",
+    "description": "A superb collection of art.",
+    "telephone": "541-552-6245",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Medford",
+      "addressLocality": "Ashland",
       "addressRegion": "Oregon",
-      "streetAddress": "1701 Highway 98"
+      "streetAddress": "1250 Siskiyou Blvd."
     },
-    "description": "A superb collection of art.",
-    "name": "6 Art Gallery",
-    "telephone": "541-555-4200",
+    "openingHours":
+      "Mo-Sa 10:00-16:00",
+    "events": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Portland 2016: A Biennial of Contemporary Art"
+      }
+    ],
     "video": {
       "@type": "VideoObject",
       "duration": "T1M33S",
       "name": "Live Stream of Art Gallery",
       "thumbnail": "images/northwest-art-gallery.jpg",
-      "url": "videos/gallery.mp4"
+      "url": "videos/gallery-2.mp4"
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Ashland Art Center",
+    "description": "A superb collection of art.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ashland",
+      "addressRegion": "Oregon",
+      "streetAddress": "357 E. Main St."
+    },
+    "openingHours": [
+      "Su-Sa 10:00-18:00"
+    ],
+    "events": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Jewelry"
+      },
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Amari Magdalena"
+      }
+    ],
+    "video": {
+      "@type": "VideoObject",
+      "duration": "T1M33S",
+      "name": "Live Stream of Art Gallery",
+      "thumbnail": "images/northwest-art-gallery.jpg",
+      "url": "videos/gallery-3.mp4"
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Art & Soul Gallery",
+    "description": "A superb collection of art.",
+    "telephone": "541-488-9006",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ashland",
+      "addressRegion": "Oregon",
+      "streetAddress": "247 E. Main St."
+    },
+    "openingHours": [
+      "Tu-Sa 10:00-16:00",
+      "Su 12:00-16:00"
+    ],
+    "events": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Wild Cranes"
+      },
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Passages"
+      }
+    ],
+    "video": {
+      "@type": "VideoObject",
+      "duration": "T1M33S",
+      "name": "Live Stream of Art Gallery",
+      "thumbnail": "images/northwest-art-gallery.jpg",
+      "url": "videos/gallery-4.mp4"
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Grants Pass Museum of Art & Gallery One",
+    "description": "A superb collection of art.",
+    "telephone": "541-479-3290",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Grants Pass",
+      "addressRegion": "Oregon",
+      "streetAddress": "229 SW “G” St."
+    },
+    "openingHours": [
+      "Tu-Sa 10:00-17:00"
+    ],
+    "events": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "Open Studios"
+      },
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "How It’s Made"
+      }
+    ],
+    "video": {
+      "@type": "VideoObject",
+      "duration": "T1M33S",
+      "name": "Live Stream of Art Gallery",
+      "thumbnail": "images/northwest-art-gallery.jpg",
+      "url": "videos/gallery-1.mp4"
     }
   }
 ]
