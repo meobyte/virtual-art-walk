@@ -10,6 +10,19 @@
             {{this.address.streetAddress}} <br>
             {{this.address.addressLocality}}, {{this.address.addressRegion}}
           </address>
+          <p>Phone: {{this.telephone}}</p>
+          <p>
+            Hours:
+            {{#each this.openingHours}}
+              {{this}}<br>
+            {{/each}}
+          </p>
+          <h3>Exhibits</h3>
+          <ul class="exhibits">
+            {{#each this.events}}
+            <li>{{this.name}}</li>
+            {{/each}}
+          </ul>
         </div>
         <video muted loop autoplay class="video__player" poster="{{this.video.thumbnail}}">
           <source src="{{this.video.url}}" type="video/mp4">
